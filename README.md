@@ -1,24 +1,18 @@
 # README
+A simple rails application with minimum configuration.
+It was created, so that we can understand that tha screenshot error that
+is mentioned in [issue] (https://github.com/rspec/rspec-rails/issues/1865)
+is really affecting system specs.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In order to reproduce the error with system specs run with the following
+command
+
+bundle exec rspec spec/system/widgets_system_spec.rb --seed 5098
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby 2.4.1
 
-* System dependencies
+* Posgresql
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* rspec, factory girl
