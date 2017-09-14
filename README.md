@@ -9,10 +9,9 @@ command
 
 bundle exec rspec spec/system/widgets_system_spec.rb --seed 5098
 
-Things you may want to cover:
-
+Dependencies
 * Ruby 2.4.1
 
 * Posgresql
 
-* rspec, factory girl
+* rspec (master branch 3.7.0pre), factory girl

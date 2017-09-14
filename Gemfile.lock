@@ -25,9 +25,9 @@ GIT
       rspec-support (= 3.7.0.pre)
 
 GIT
-  remote: https://github.com/rspec/rspec-rails.git
-  revision: 9118e2c62b86ef2103d132ac88409bddca187d5c
-  branch: master
+  remote: https://github.com/rspec/rspec-rails
+  revision: 2d50511095d532a0116969e8d0392daa498174cb
+  branch: fix-system-test-screenshots
   specs:
     rspec-rails (3.7.0.pre)
       actionpack (>= 3.0)

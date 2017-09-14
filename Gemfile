@@ -44,6 +44,7 @@ group :development, :test do
   gem 'spring-commands-rspec'
   gem 'factory_girl_rails'
   gem 'shoulda-matchers'
+  gem 'rspec-rails', :git => 'https://github.com/rspec/rspec-rails', :branch => 'fix-system-test-screenshots'
 end
 
 group :development do
@@ -55,7 +56,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-%w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
+%w[rspec-core rspec-expectations rspec-mocks rspec-support].each do |lib|
   gem lib, :git => "https://github.com/rspec/#{lib}.git", :branch => 'master', group: :test
 end
 
